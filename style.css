@@ -1,0 +1,28 @@
+*{
+    margin: 20px;
+}
+
+.choice{
+    border: 2px solid black;
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    color: white;
+}
+#heading{
+    text-align: center;
+}
+body{
+    background-color: pink;
+}
+
+img{
+    align-items: center;
+   
+    height: 15px;
+}
+
+#choices{
+    display: flex;
+    
+}

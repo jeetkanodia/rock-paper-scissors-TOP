@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div id="game">
+
+        <h1 id="heading">Rock Paper Scissors</h1>
+
+        <h4>Select your choice:</h4>
+        <div id="choices">
+            <div class="choice" onclick="playRound('rock')">
+                <img src="images/rock.png" alt="ROCK">
+                <div>ROCK</div>
+            </div>
+            <div class="choice" onclick="playRound('paper')"><img src="images/paper.png" alt="Paper"><div>PAPER</div></div>
+        
+        <div class="choice" onclick="playRound('scissors')"><img src="images/scissors.png" alt="Scissors"><div>SCISSORS</div></div>
+    </div>
+
+    <div id="result">
+        <p></p>
+    </div>
+    </div>
 </body>
+
 </html>
